@@ -37,11 +37,11 @@ int main()
     printf("value %i \n", valueB);
 
     //RETO1
-    //Crear una variable X con un valor de 10, incrementarlo el triple de su valor y mostrarlo.
+    //Crear una variable X con un valor de 10, sumarle su doble y mostrarlo.
     printf("RETO 1\n");
     int x = 10;
     printf("El valor inicial es: %i \n", x);
-    x *=3;
+    x += 2*x;
     printf("El valor final es: %i \n", x);
 
     //RETO 2
